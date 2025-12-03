@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamHome – Real Estate Listings</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Skip Link -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar" aria-label="Primary Navigation">
+            <div class="logo">DreamHome</div>
+            <ul class="nav-links">
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#agents">Agents</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Home</h1>
+            <p>Discover the best property listings for sale and rent.</p>
+        </div>
+
+        <!-- Search Bar -->
+        <form class="search-bar" aria-label="Property Search">
+            <input type="text" placeholder="Location" aria-label="Location" required>
+            <select aria-label="Price Range">
+                <option>Price</option>
+                <option>$100k - $300k</option>
+                <option>$300k - $600k</option>
+                <option>$600k - $1M</option>
+            </select>
+            <select aria-label="Bedrooms">
+                <option>Bedrooms</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3+</option>
+            </select>
+            <select aria-label="Property Type">
+                <option>Type</option>
+                <option>House</option>
+                <option>Villa</option>
+                <option>Apartment</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <main id="main-content">
+
+        <!-- LATEST PROPERTIES -->
+        <section class="section properties" id="properties">
+            <h2 class="section-title">Latest Properties</h2>
+
+            <div class="grid">
+                <article class="property-card">
+                    <img src="https://picsum.photos/400/250?random=1" alt="Modern Family House" />
+                    <div class="info">
+                        <h3>$950,000</h3>
+                        <p class="name">Modern Family House</p>
+                        <p class="meta">4 Beds • 2 Baths • 2500 sqft</p>
+                        <p class="location">Los Angeles, CA</p>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <img src="https://picsum.photos/400/250?random=2" alt="Luxury Villa" />
+                    <div class="info">
+                        <h3>$1,200,000</h3>
+                        <p class="name">Luxury Villa</p>
+                        <p class="meta">5 Beds • 4 Baths • 4500 sqft</p>
+                        <p class="location">Miami, FL</p>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <img src="https://picsum.photos/400/250?random=3" alt="Cozy Townhouse" />
+                    <div class="info">
+                        <h3>$530,000</h3>
+                        <p class="name">Cozy Townhouse</p>
+                        <p class="meta">2 Beds • 1 Bath • 1500 sqft</p>
+                        <p class="location">Seattle, WA</p>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <img src="https://picsum.photos/400/250?random=4" alt="Downtown Apartment" />
+                    <div class="info">
+                        <h3>$850,000</h3>
+                        <p class="name">Downtown Apartment</p>
+                        <p class="meta">3 Beds • 2 Baths • 1900 sqft</p>
+                        <p class="location">New York, NY</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROPERTY DETAIL -->
+        <section class="section property-detail">
+            <h2 class="section-title">Property Detail</h2>
+
+            <article class="detail-card">
+                <img src="https://picsum.photos/500/350?random=6" alt="Luxury Villa interior" />
+                <div class="detail-info">
+                    <h3>Luxury Villa in Miami</h3>
+                    <p>
+                        Experience ultimate luxury living in this stunning villa featuring  
+                        5 bedrooms, 4 bathrooms, a private pool, and breathtaking ocean views.
+                    </p>
+                    <ul>
+                        <li>5 Beds</li>
+                        <li>4 Baths</li>
+                        <li>3500 sqft</li>
+                        <li>Miami, Florida</li>
+                    </ul>
+                    <h4 class="price">$1,200,000</h4>
+                </div>
+            </article>
+        </section>
+
+        <!-- AGENTS -->
+        <section class="section agents" id="agents">
+            <h2 class="section-title">Featured Agents</h2>
+
+            <div class="grid agents-grid">
+                <article class="agent-card">
+                    <img src="https://i.pravatar.cc/100?img=1" alt="Agent John Carter">
+                    <h3>John Carter</h3>
+                    <p>Luxury Property Specialist</p>
+                </article>
+
+                <article class="agent-card">
+                    <img src="https://i.pravatar.cc/100?img=2" alt="Agent Emily Stone">
+                    <h3>Emily Stone</h3>
+                    <p>Family Homes & Apartments</p>
+                </article>
+
+                <article class="agent-card">
+                    <img src="https://i.pravatar.cc/100?img=3" alt="Agent Michael Lee">
+                    <h3>Michael Lee</h3>
+                    <p>Commercial Real Estate</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="section why-us" id="why-us">
+            <h2 class="section-title">Why Choose Us</h2>
+
+            <div class="grid choose-grid">
+                <article>
+                    <h3>Trusted Experts</h3>
+                    <p>Top-rated agents with years of experience.</p>
+                </article>
+
+                <article>
+                    <h3>24/7 Support</h3>
+                    <p>We’re always available to assist you.</p>
+                </article>
+
+                <article>
+                    <h3>Wide Selection</h3>
+                    <p>Find the perfect property for your needs.</p>
+                </article>
+
+                <article>
+                    <h3>Best Deals</h3>
+                    <p>Get exclusive offers and competitive prices.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section class="section blog" id="blog">
+            <h2 class="section-title">Latest Blog Posts</h2>
+
+            <div class="grid">
+                <article class="blog-card">
+                    <img src="https://picsum.photos/400/250?random=9" alt="Tips for First-Time Home Buyers">
+                    <h3>Tips for First-Time Home Buyers</h3>
+                    <p>Learn how to navigate the real estate market and find your dream home.</p>
+                    <a href="#">Read More</a>
+                </article>
+
+                <article class="blog-card">
+                    <img src="https://picsum.photos/400/250?random=10" alt="How to Stage Your Home for Sale">
+                    <h3>How to Stage Your Home for Sale</h3>
+                    <p>Make your home more appealing to potential buyers with these tips.</p>
+                    <a href="#">Read More</a>
+                </article>
+
+                <article class="blog-card">
+                    <img src="https://picsum.photos/400/250?random=11" alt="Understanding Mortgage Rates">
+                    <h3>Understanding Mortgage Rates</h3>
+                    <p>Learn what impacts mortgage rates and how they affect your buying decisions.</p>
+                    <a href="#">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest property updates and news delivered to your inbox.</p>
+
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email Address" required />
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section class="contact section" id="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+
+            <form class="contact-form">
+                <label for="name">Your Name</label>
+                <input id="name" type="text" placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input id="email" type="email" placeholder="Enter your email" required>
+
+                <label for="subject">Subject</label>
+                <input id="subject" type="text" placeholder="Subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3>DreamHome</h3>
+                <p>Find your perfect home with confidence.</p>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#agents">Agents</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <p>Email: support@dreamhome.com</p>
+                <p>Phone: +1 555-123-4567</p>
+            </div>
+        </div>
+
+        <p class="copyright">© 2024 DreamHome Real Estate. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
