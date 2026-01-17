@@ -77,6 +77,3 @@ Double-click index.html
 The website will open directly in your browser
 No server or installation required.
 
-🌐 GitHub Pages Link (Optional)
-
-👉 [https://yourusername.github.io/capstone-StudentName-lab5/]
